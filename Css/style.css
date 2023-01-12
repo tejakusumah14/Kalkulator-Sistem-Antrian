@@ -1,0 +1,85 @@
+    body {
+        margin: auto;
+        max-width: 768px;
+        border: 5px solid black;
+        border-color: rgb(0, 39, 112);
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(5px);
+        font-size: 14px;
+        font-family: News706 BT;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    form {
+        backdrop-filter: blur(5px);
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div {
+        backdrop-filter: blur(5px);
+        padding: 20px;
+    }
+    
+    div.container {
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(0, 0, 0);
+        font-family: News706 BT;
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+    div.input {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 5px solid black;
+        border-color: rgb(0, 39, 112);
+        margin: 5px 0px;
+    }
+    
+    div.hasil {
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    input {
+        padding: 8px;
+        background-color: rgb(152, 252, 252);
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    button {
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: News706 BT;
+        font-weight: 900;
+        background-color: rgb(15, 132, 228);
+        color: white;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: rgb(6, 60, 104);
+    }
+    
+    footer {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        border-style: double;
+        font-family: News706 BT;
+        border-color: white;
+    }
